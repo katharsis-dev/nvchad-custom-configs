@@ -26,6 +26,10 @@ M.general = {
             ":Telescope keymaps<CR>",
             "Search for keymaps",
         },
+        ["<leader>rl"] = {
+            ":LspRestart<CR>",
+            "Reload LSP",
+        },
         ["<C-j>"] = {
             "<C-d>zz",
             "Scroll down"
