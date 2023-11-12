@@ -54,6 +54,11 @@ local plugins = {
         end,
     },
 
+    {
+        'untitled-ai/jupyter_ascending.vim',
+        lazy=false,
+    }
+
     -- {
     --     'akinsho/toggleterm.nvim',
     --     version = "*",

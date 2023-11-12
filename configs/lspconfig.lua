@@ -15,3 +15,12 @@ end
 
 -- 
 -- lspconfig.pyright.setup { blabla}
+
+lspconfig.pyright.setup {
+    settings = {
+        python = {
+            -- analysis = { diagnosticMode = "off", typeCheckingMode = "off" },
+            analysis = { typeCheckingMode = "off" },
+        },
+    },
+}

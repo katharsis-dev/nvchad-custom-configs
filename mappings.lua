@@ -110,6 +110,14 @@ M.lspconfig = {
     }
 }
 
+M.jupyter = {
+    n = {
+        ["<leader>ej"] = {":call jupyter_ascending#execute()<CR>", "Jupyter Execute Cell"},
+        ["<leader>aj"] = {":call jupyter_ascending#execute_all()<CR>", "Jupyter Execute All"},
+        ["<leader>rj"] = {":call jupyter_ascending#restart()<CR>", "Jupyter Restart"}
+    }
+}
+
 -- more keybinds!
 
 return M
